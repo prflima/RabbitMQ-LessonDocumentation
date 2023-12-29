@@ -1,4 +1,5 @@
 ﻿using System;
+using RabbitMQ.Client;
 
 namespace Receive
 {
@@ -6,7 +7,7 @@ namespace Receive
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            var factory = new ConnectionFactory {HostName = "localhost"};
         }
     }
 }

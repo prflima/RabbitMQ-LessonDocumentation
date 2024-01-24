@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Linq;
 using System.Text;
+using System.Threading;
 using RabbitMQ.Client;
 using RabbitMQ.Client.Events;
 
@@ -28,7 +29,10 @@ namespace Receive
             {
                 var body = ea.Body.ToArray();
                 var message = Encoding.UTF8.GetString(body);
-                Console.WriteLine($"Have one message: {message}");
+                Console.WriteLine($"Have one Task: {message}");
+                int points = message.Split('.').Length - 1;
+                Thread.Sleep(points * 100);
+                Console.WriteLine("Task completed");
             };
 
             channel.BasicConsume(queue: "hello",

@@ -16,11 +16,16 @@ namespace Worker
             using var connection = factory.CreateConnection();
             using var channel = connection.CreateModel();
 
-            channel.QueueDeclare(queue: "hello",
-                                 durable: false,
+            channel.QueueDeclare(queue: "task_queue",
+                                 durable: true,
                                  exclusive: false,
                                  autoDelete: false,
                                  arguments: null);
+
+            // Fair Dispatch
+            // This configuration tells to RabbitMQ don't dispatch a new message 
+            // to a worker until it has processed and acknowledged the previous one.
+            channel.BasicQos(prefetchSize: 0, prefetchCount: 1, global: false);
 
             Console.WriteLine("[*] Waiting for messages!");
 
@@ -32,9 +37,11 @@ namespace Worker
                 Console.WriteLine($"Have one Task: {message}");
                 int points = message.Split(" ").Length -1;
                 Thread.Sleep(points * 100);
+
+                channel.BasicAck(deliveryTag: ea.DeliveryTag, multiple: false);
             };
 
-            channel.BasicConsume(queue: "hello",
+            channel.BasicConsume(queue: "task_queue",
                                  autoAck: true,
                                  consumer: consumer);
 

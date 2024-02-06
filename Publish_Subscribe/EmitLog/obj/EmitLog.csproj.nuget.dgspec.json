@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\paulo\\OneDrive\\Desktop\\Git\\RabbitMQ-LessonDocumentation\\Publish_Subscribe\\EmitLog\\EmitLog.csproj": {}
+    "c:\\Users\\paulo\\OneDrive\\Desktop\\Git\\RabbitMQ-LessonDocumentation\\Publish_Subscribe\\EmitLog\\EmitLog.csproj": {}
   },
   "projects": {
-    "C:\\Users\\paulo\\OneDrive\\Desktop\\Git\\RabbitMQ-LessonDocumentation\\Publish_Subscribe\\EmitLog\\EmitLog.csproj": {
+    "c:\\Users\\paulo\\OneDrive\\Desktop\\Git\\RabbitMQ-LessonDocumentation\\Publish_Subscribe\\EmitLog\\EmitLog.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\paulo\\OneDrive\\Desktop\\Git\\RabbitMQ-LessonDocumentation\\Publish_Subscribe\\EmitLog\\EmitLog.csproj",
+        "projectUniqueName": "c:\\Users\\paulo\\OneDrive\\Desktop\\Git\\RabbitMQ-LessonDocumentation\\Publish_Subscribe\\EmitLog\\EmitLog.csproj",
         "projectName": "EmitLog",
-        "projectPath": "C:\\Users\\paulo\\OneDrive\\Desktop\\Git\\RabbitMQ-LessonDocumentation\\Publish_Subscribe\\EmitLog\\EmitLog.csproj",
+        "projectPath": "c:\\Users\\paulo\\OneDrive\\Desktop\\Git\\RabbitMQ-LessonDocumentation\\Publish_Subscribe\\EmitLog\\EmitLog.csproj",
         "packagesPath": "C:\\Users\\paulo\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\paulo\\OneDrive\\Desktop\\Git\\RabbitMQ-LessonDocumentation\\Publish_Subscribe\\EmitLog\\obj\\",
+        "outputPath": "c:\\Users\\paulo\\OneDrive\\Desktop\\Git\\RabbitMQ-LessonDocumentation\\Publish_Subscribe\\EmitLog\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"

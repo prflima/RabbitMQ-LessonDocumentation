@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "JJ/TTlFZp8+YogABgV68L5S7ZQ9LVvBKvdV+0TFcR+WkTBGZC7BaQJqoMg09YUgC8KTRv8B+Ab13+X2ua8KC4g==",
+  "dgSpecHash": "Z47df7Tu1Qo6pJtKlUxnsqwaVFSE2xL6Qd4R47roJUZoId7fsKvzmVPmM6z7sHzsxopzUHyOwy3wUCX7EAwVig==",
   "success": true,
-  "projectFilePath": "C:\\Users\\paulo\\OneDrive\\Desktop\\Git\\RabbitMQ-LessonDocumentation\\Publish_Subscribe\\EmitLog\\EmitLog.csproj",
+  "projectFilePath": "c:\\Users\\paulo\\OneDrive\\Desktop\\Git\\RabbitMQ-LessonDocumentation\\Publish_Subscribe\\EmitLog\\EmitLog.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\paulo\\.nuget\\packages\\rabbitmq.client\\5.2.0\\rabbitmq.client.5.2.0.nupkg.sha512"
   ],

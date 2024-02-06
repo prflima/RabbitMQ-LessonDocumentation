@@ -1,8 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "1LSGd5JWWxltMvm1AJIiZ568Kf+JjTlyhcl2GHejj0EY8VnxM+snonnzJzkYwDNlUUNgajuRSzihnFPLeABMpw==",
+  "dgSpecHash": "eBxUTgGLToENE7kyJAl59KE0YxvdlF6oNxbRI6xJvCb4LuC40rPAdWNRJoQ1ZVDde8eEtH4q5SOIAk1pMSGJow==",
   "success": true,
   "projectFilePath": "C:\\Users\\paulo\\OneDrive\\Desktop\\Git\\RabbitMQ-LessonDocumentation\\Routing\\ReceiveLogsDirect\\ReceiveLogsDirect.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "C:\\Users\\paulo\\.nuget\\packages\\rabbitmq.client\\5.2.0\\rabbitmq.client.5.2.0.nupkg.sha512"
+  ],
   "logs": []
 }
